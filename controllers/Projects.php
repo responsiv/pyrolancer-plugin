@@ -1,5 +1,6 @@
 <?php namespace Responsiv\Pyrolancer\Controllers;
 
+use File;
 use Lang;
 use Flash;
 use Markdown;
