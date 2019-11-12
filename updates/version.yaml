@@ -25,3 +25,4 @@
 1.0.4:
     - Add client or worker flags to user
     - add_flags_to_users_table.php
+1.0.5: Adds missing 'see_more' Twig filter

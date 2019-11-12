@@ -210,6 +210,19 @@ class Plugin extends PluginBase
         ];
     }
 
+    /**
+     * Register new Twig variables
+     * @return array
+     */
+    public function registerMarkupTags()
+    {
+        return [
+            'filters' => [
+                'see_more' => [\Responsiv\Pyrolancer\Helpers\Html::class, 'seeMore']
+            ]
+        ];
+    }
+
     public function registerSchedule($schedule)
     {
         $schedule->call(function(){
